@@ -1,0 +1,16 @@
+#define SIZE 12
+#define FONT xos4 Terminus
+
+URxvt*depth:            24
+URxvt*transparent:      true
+URxvt*blurRadius:       8
+URxvt*font:             xft:FONT:pixelsize=SIZE:style=Medium:antialias=true, \
+                        xft:inconsolata:pixelsize=SIZE:style=Regular
+URxvt*boldFont:         xft:FONT:pixelsize=SIZE:style=Bold:antialias=true, \
+                        xft:inconsolata:pixelsize=SIZE:style=Bold:antialias=true
+URxvt*url-launcher:     /usr/bin/firefox
+URxvt*scrollBar:        false
+URxvt.iso14755:         False
+URxvt*dynamicColors:    on
+URxvt.underlineURLs:    true
+URxvt*shading:		35
